@@ -1,0 +1,36 @@
+CSCE-608 Database Systems
+
+COURSE PROJECT #2
+
+Authors:
+Arijit Upadhyaya
+Cullen Brown
+
+INSTALL:
+
+This project has been tested on Linux - UBUNTU
+We used GNU g++ compiler
+
+To run our program, simple do a make
+We have written our own makefile
+On running make the executable that is crreated is project2
+
+To remove the object files do a make clean
+
+Files:
+deleteUtil.cpp  evalWhereConds.cpp              helper.cpp      helpSelect.cpp  project2.cpp        StorageManager.cpp
+dropUtil.cpp    evalWhereConds_lastWorking.cpp  helpInsert.cpp  parserLib.cpp   selectJoinUtil.cpp 
+
+Corresponding .h files are also present.
+
+
+RUNNING:
+
+to run the program, type
+./project2 <input file>
+
+Thus our executable takes in an input file that contains all the queries separated by a new line
+
+Tests:
+
+The various test cases have been uploaded under the tests directory

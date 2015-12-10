@@ -1,0 +1,395 @@
+=======================Initialization=========================
+
+CREATE TABLE course (sid INT, homework INT, project INT, exam INT, grade STR20)
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.045 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+CREATE TABLE r (a INT, b INT)
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.015 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+CREATE TABLE s (b INT, c INT)
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.008 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+CREATE TABLE t (a INT, c INT)
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.008 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (1, 99, 100, 100, "A")
+
+Printing the DISK IO Cost: 
+Real elapse time = 74.146 ms
+Calculated elapse time = 74.63 ms
+Calculated Disk I/Os = 1
+
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (3, 100, 100, 98, "C")
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.176 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (3, 100, 69, 64, "C")
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.179 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (15, 100, 50, 90, "E")
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.182 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (15, 100, 99, 100, "E")
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.307 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 0, 0, 0, "E")
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.179 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 0, 0, 0, "E")
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.194 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 0, 0, 0, "E")
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.242 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 0, 0, 0, "E")
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.241 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 0, 0, 0, "E")
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.203 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 0, 0, 0, "E")
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.194 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO r (a, b) VALUES (0, 0)
+
+Printing the DISK IO Cost: 
+Real elapse time = 74.165 ms
+Calculated elapse time = 74.63 ms
+Calculated Disk I/Os = 1
+
+
+INSERT INTO r (a, b) VALUES (1, 1)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.221 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO r (a, b) VALUES (1, 1)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.171 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO r (a, b) VALUES (2, 2)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.192 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO r (a, b) VALUES (3, 3)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.249 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO s (b, c) VALUES (0, 0)
+
+Printing the DISK IO Cost: 
+Real elapse time = 74.224 ms
+Calculated elapse time = 74.63 ms
+Calculated Disk I/Os = 1
+
+
+INSERT INTO s (b, c) VALUES (2, 2)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.189 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO s (b, c) VALUES (3, 3)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.17 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO s (b, c) VALUES (0, 0)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.17 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO s (b, c) VALUES (0, 0)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.179 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO s (b, c) VALUES (1, 1)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.179 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO t (a, c) VALUES (0, 0)
+
+Printing the DISK IO Cost: 
+Real elapse time = 74.141 ms
+Calculated elapse time = 74.63 ms
+Calculated Disk I/Os = 1
+
+
+INSERT INTO t (a, c) VALUES (1, 1)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.208 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO t (a, c) VALUES (2, 2)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.181 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO t (a, c) VALUES (0, 0)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.204 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO t (a, c) VALUES (1, 1)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.176 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+SELECT * FROM r
+a	b	
+0	0	
+1	1	
+1	1	
+2	2	
+3	3	
+
+Printing the DISK IO Cost: 
+Real elapse time = 138.352 ms
+Calculated elapse time = 138.63 ms
+Calculated Disk I/Os = 2
+
+
+DROP TABLE r
+Inside processDrop function
+Table r successfully deleted/dropped
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.153 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+SELECT * FROM r
+No tuples in that relation, empty table
+Empty Set, no tuples returned
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.136 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+SELECT * FROM s
+b	c	
+0	0	
+2	2	
+3	3	
+0	0	
+0	0	
+1	1	
+
+Printing the DISK IO Cost: 
+Real elapse time = 138.264 ms
+Calculated elapse time = 138.63 ms
+Calculated Disk I/Os = 2
+
+
+DROP TABLE s
+Inside processDrop function
+Table s successfully deleted/dropped
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.079 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+SELECT * FROM s
+No tuples in that relation, empty table
+Empty Set, no tuples returned
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.116 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+SELECT * FROM t
+a	c	
+0	0	
+1	1	
+2	2	
+0	0	
+1	1	
+
+Printing the DISK IO Cost: 
+Real elapse time = 138.29 ms
+Calculated elapse time = 138.63 ms
+Calculated Disk I/Os = 2
+
+
+DROP TABLE t
+Inside processDrop function
+Table t successfully deleted/dropped
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.139 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+SELECT * FROM t
+No tuples in that relation, empty table
+Empty Set, no tuples returned
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.171 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+SELECT * FROM course
+sid	homework	project	exam	grade	
+1	99	100	100	"A"	
+3	100	100	98	"C"	
+3	100	69	64	"C"	
+15	100	50	90	"E"	
+15	100	99	100	"E"	
+16	0	0	0	"E"	
+16	0	0	0	"E"	
+16	0	0	0	"E"	
+16	0	0	0	"E"	
+16	0	0	0	"E"	
+16	0	0	0	"E"	
+
+Printing the DISK IO Cost: 
+Real elapse time = 724.676 ms
+Calculated elapse time = 725.26 ms
+Calculated Disk I/Os = 11
+
+
+DROP TABLE course
+Inside processDrop function
+Table course successfully deleted/dropped
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.131 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+SELECT * FROM course
+No tuples in that relation, empty table
+Empty Set, no tuples returned
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.182 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+
+End of the input file

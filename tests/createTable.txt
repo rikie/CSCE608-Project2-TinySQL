@@ -1,0 +1,8 @@
+CREATE TABLE course (sid INT, homework INT, project INT, exam INT, grade STR20)
+CREATE TABLE course2 (sid INT, exam INT, grade STR20)
+CREATE TABLE t1 (c INT)
+CREATE TABLE t2 (c INT)
+CREATE TABLE t3 (c INT)
+CREATE TABLE t4 (c INT)
+CREATE TABLE t5 (c INT)
+CREATE TABLE t6 (c INT)

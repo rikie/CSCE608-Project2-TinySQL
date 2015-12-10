@@ -1,0 +1,46 @@
+CREATE TABLE course (sid INT, homework INT, project INT, exam INT, grade STR20)
+CREATE TABLE r (a INT, b INT)
+CREATE TABLE s (b INT, c INT)
+CREATE TABLE t (a INT, c INT)
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (1, 99, 100, 100, "A")
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (3, 100, 100, 98, "C")
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (3, 100, 69, 64, "C")
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (15, 100, 50, 90, "E")
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (15, 100, 99, 100, "E")
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 0, 0, 0, "E")
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 0, 0, 0, "E")
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 0, 0, 0, "E")
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 0, 0, 0, "E")
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 0, 0, 0, "E")
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (16, 0, 0, 0, "E")
+INSERT INTO r (a, b) VALUES (0, 0)
+INSERT INTO r (a, b) VALUES (1, 1)
+INSERT INTO r (a, b) VALUES (1, 1)
+INSERT INTO r (a, b) VALUES (2, 2)
+INSERT INTO r (a, b) VALUES (3, 3)
+INSERT INTO s (b, c) VALUES (0, 0)
+INSERT INTO s (b, c) VALUES (2, 2)
+INSERT INTO s (b, c) VALUES (3, 3)
+INSERT INTO s (b, c) VALUES (0, 0)
+INSERT INTO s (b, c) VALUES (0, 0)
+INSERT INTO s (b, c) VALUES (1, 1)
+INSERT INTO t (a, c) VALUES (0, 0)
+INSERT INTO t (a, c) VALUES (1, 1)
+INSERT INTO t (a, c) VALUES (2, 2)
+INSERT INTO t (a, c) VALUES (0, 0)
+INSERT INTO t (a, c) VALUES (1, 1)
+SELECT * FROM course
+DELETE FROM course WHERE grade = "E"
+SELECT * FROM course
+SELECT * FROM r
+DELETE FROM r WHERE b < 3 AND b > 0
+SELECT * FROM r
+SELECT * FROM s
+DELETE FROM s WHERE s.c = 0
+SELECT * FROM s
+SELECT * FROM t
+DELETE FROM t WHERE NOT a = 1
+SELECT * FROM t
+SELECT * FROM course
+DELETE FROM course
+SELECT * FROM course

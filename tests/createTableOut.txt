@@ -1,0 +1,68 @@
+=======================Initialization=========================
+
+CREATE TABLE course (sid INT, homework INT, project INT, exam INT, grade STR20)
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.228 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+CREATE TABLE course2 (sid INT, exam INT, grade STR20)
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.126 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+CREATE TABLE t1 (c INT)
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.077 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+CREATE TABLE t2 (c INT)
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.079 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+CREATE TABLE t3 (c INT)
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.077 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+CREATE TABLE t4 (c INT)
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.074 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+CREATE TABLE t5 (c INT)
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.076 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+CREATE TABLE t6 (c INT)
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.076 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+
+End of the input file

@@ -1,0 +1,590 @@
+=======================Initialization=========================
+
+CREATE TABLE t1 (c INT)
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.103 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+CREATE TABLE t2 (c INT)
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.054 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+CREATE TABLE t3 (c INT)
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.045 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+CREATE TABLE t4 (c INT)
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.044 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+CREATE TABLE t5 (c INT)
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.076 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+CREATE TABLE t6 (c INT)
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.023 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+INSERT INTO t1 (c) VALUES (0)
+
+Printing the DISK IO Cost: 
+Real elapse time = 74.328 ms
+Calculated elapse time = 74.63 ms
+Calculated Disk I/Os = 1
+
+
+INSERT INTO t1 (c) VALUES (1)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.169 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO t1 (c) VALUES (2)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.223 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO t1 (c) VALUES (3)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.184 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO t1 (c) VALUES (4)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.199 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO t2 (c) VALUES (0)
+
+Printing the DISK IO Cost: 
+Real elapse time = 74.14 ms
+Calculated elapse time = 74.63 ms
+Calculated Disk I/Os = 1
+
+
+INSERT INTO t2 (c) VALUES (1)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.181 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO t2 (c) VALUES (2)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.176 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO t2 (c) VALUES (3)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.208 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO t3 (c) VALUES (0)
+
+Printing the DISK IO Cost: 
+Real elapse time = 74.158 ms
+Calculated elapse time = 74.63 ms
+Calculated Disk I/Os = 1
+
+
+INSERT INTO t3 (c) VALUES (1)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.166 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO t3 (c) VALUES (2)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.164 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO t3 (c) VALUES (3)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.171 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO t4 (c) VALUES (0)
+
+Printing the DISK IO Cost: 
+Real elapse time = 74.131 ms
+Calculated elapse time = 74.63 ms
+Calculated Disk I/Os = 1
+
+
+INSERT INTO t4 (c) VALUES (1)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.167 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO t5 (c) VALUES (0)
+
+Printing the DISK IO Cost: 
+Real elapse time = 74.135 ms
+Calculated elapse time = 74.63 ms
+Calculated Disk I/Os = 1
+
+
+INSERT INTO t5 (c) VALUES (0)
+
+Printing the DISK IO Cost: 
+Real elapse time = 148.182 ms
+Calculated elapse time = 149.26 ms
+Calculated Disk I/Os = 2
+
+
+INSERT INTO t6 (c) VALUES (0)
+
+Printing the DISK IO Cost: 
+Real elapse time = 74.15 ms
+Calculated elapse time = 74.63 ms
+Calculated Disk I/Os = 1
+
+
+SELECT * FROM t1, t2, t3, t4, t5, t6
+calling processCrossJoinOnePass
+t1.c	t2.c	t3.c	t4.c	t5.c	t6.c	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	1	0	0	
+0	0	0	1	0	0	
+0	0	1	0	0	0	
+0	0	1	0	0	0	
+0	0	1	1	0	0	
+0	0	1	1	0	0	
+0	0	2	0	0	0	
+0	0	2	0	0	0	
+0	0	2	1	0	0	
+0	0	2	1	0	0	
+0	0	3	0	0	0	
+0	0	3	0	0	0	
+0	0	3	1	0	0	
+0	0	3	1	0	0	
+0	1	0	0	0	0	
+0	1	0	0	0	0	
+0	1	0	1	0	0	
+0	1	0	1	0	0	
+0	1	1	0	0	0	
+0	1	1	0	0	0	
+0	1	1	1	0	0	
+0	1	1	1	0	0	
+0	1	2	0	0	0	
+0	1	2	0	0	0	
+0	1	2	1	0	0	
+0	1	2	1	0	0	
+0	1	3	0	0	0	
+0	1	3	0	0	0	
+0	1	3	1	0	0	
+0	1	3	1	0	0	
+0	2	0	0	0	0	
+0	2	0	0	0	0	
+0	2	0	1	0	0	
+0	2	0	1	0	0	
+0	2	1	0	0	0	
+0	2	1	0	0	0	
+0	2	1	1	0	0	
+0	2	1	1	0	0	
+0	2	2	0	0	0	
+0	2	2	0	0	0	
+0	2	2	1	0	0	
+0	2	2	1	0	0	
+0	2	3	0	0	0	
+0	2	3	0	0	0	
+0	2	3	1	0	0	
+0	2	3	1	0	0	
+0	3	0	0	0	0	
+0	3	0	0	0	0	
+0	3	0	1	0	0	
+0	3	0	1	0	0	
+0	3	1	0	0	0	
+0	3	1	0	0	0	
+0	3	1	1	0	0	
+0	3	1	1	0	0	
+0	3	2	0	0	0	
+0	3	2	0	0	0	
+0	3	2	1	0	0	
+0	3	2	1	0	0	
+0	3	3	0	0	0	
+0	3	3	0	0	0	
+0	3	3	1	0	0	
+0	3	3	1	0	0	
+1	0	0	0	0	0	
+1	0	0	0	0	0	
+1	0	0	1	0	0	
+1	0	0	1	0	0	
+1	0	1	0	0	0	
+1	0	1	0	0	0	
+1	0	1	1	0	0	
+1	0	1	1	0	0	
+1	0	2	0	0	0	
+1	0	2	0	0	0	
+1	0	2	1	0	0	
+1	0	2	1	0	0	
+1	0	3	0	0	0	
+1	0	3	0	0	0	
+1	0	3	1	0	0	
+1	0	3	1	0	0	
+1	1	0	0	0	0	
+1	1	0	0	0	0	
+1	1	0	1	0	0	
+1	1	0	1	0	0	
+1	1	1	0	0	0	
+1	1	1	0	0	0	
+1	1	1	1	0	0	
+1	1	1	1	0	0	
+1	1	2	0	0	0	
+1	1	2	0	0	0	
+1	1	2	1	0	0	
+1	1	2	1	0	0	
+1	1	3	0	0	0	
+1	1	3	0	0	0	
+1	1	3	1	0	0	
+1	1	3	1	0	0	
+1	2	0	0	0	0	
+1	2	0	0	0	0	
+1	2	0	1	0	0	
+1	2	0	1	0	0	
+1	2	1	0	0	0	
+1	2	1	0	0	0	
+1	2	1	1	0	0	
+1	2	1	1	0	0	
+1	2	2	0	0	0	
+1	2	2	0	0	0	
+1	2	2	1	0	0	
+1	2	2	1	0	0	
+1	2	3	0	0	0	
+1	2	3	0	0	0	
+1	2	3	1	0	0	
+1	2	3	1	0	0	
+1	3	0	0	0	0	
+1	3	0	0	0	0	
+1	3	0	1	0	0	
+1	3	0	1	0	0	
+1	3	1	0	0	0	
+1	3	1	0	0	0	
+1	3	1	1	0	0	
+1	3	1	1	0	0	
+1	3	2	0	0	0	
+1	3	2	0	0	0	
+1	3	2	1	0	0	
+1	3	2	1	0	0	
+1	3	3	0	0	0	
+1	3	3	0	0	0	
+1	3	3	1	0	0	
+1	3	3	1	0	0	
+2	0	0	0	0	0	
+2	0	0	0	0	0	
+2	0	0	1	0	0	
+2	0	0	1	0	0	
+2	0	1	0	0	0	
+2	0	1	0	0	0	
+2	0	1	1	0	0	
+2	0	1	1	0	0	
+2	0	2	0	0	0	
+2	0	2	0	0	0	
+2	0	2	1	0	0	
+2	0	2	1	0	0	
+2	0	3	0	0	0	
+2	0	3	0	0	0	
+2	0	3	1	0	0	
+2	0	3	1	0	0	
+2	1	0	0	0	0	
+2	1	0	0	0	0	
+2	1	0	1	0	0	
+2	1	0	1	0	0	
+2	1	1	0	0	0	
+2	1	1	0	0	0	
+2	1	1	1	0	0	
+2	1	1	1	0	0	
+2	1	2	0	0	0	
+2	1	2	0	0	0	
+2	1	2	1	0	0	
+2	1	2	1	0	0	
+2	1	3	0	0	0	
+2	1	3	0	0	0	
+2	1	3	1	0	0	
+2	1	3	1	0	0	
+2	2	0	0	0	0	
+2	2	0	0	0	0	
+2	2	0	1	0	0	
+2	2	0	1	0	0	
+2	2	1	0	0	0	
+2	2	1	0	0	0	
+2	2	1	1	0	0	
+2	2	1	1	0	0	
+2	2	2	0	0	0	
+2	2	2	0	0	0	
+2	2	2	1	0	0	
+2	2	2	1	0	0	
+2	2	3	0	0	0	
+2	2	3	0	0	0	
+2	2	3	1	0	0	
+2	2	3	1	0	0	
+2	3	0	0	0	0	
+2	3	0	0	0	0	
+2	3	0	1	0	0	
+2	3	0	1	0	0	
+2	3	1	0	0	0	
+2	3	1	0	0	0	
+2	3	1	1	0	0	
+2	3	1	1	0	0	
+2	3	2	0	0	0	
+2	3	2	0	0	0	
+2	3	2	1	0	0	
+2	3	2	1	0	0	
+2	3	3	0	0	0	
+2	3	3	0	0	0	
+2	3	3	1	0	0	
+2	3	3	1	0	0	
+3	0	0	0	0	0	
+3	0	0	0	0	0	
+3	0	0	1	0	0	
+3	0	0	1	0	0	
+3	0	1	0	0	0	
+3	0	1	0	0	0	
+3	0	1	1	0	0	
+3	0	1	1	0	0	
+3	0	2	0	0	0	
+3	0	2	0	0	0	
+3	0	2	1	0	0	
+3	0	2	1	0	0	
+3	0	3	0	0	0	
+3	0	3	0	0	0	
+3	0	3	1	0	0	
+3	0	3	1	0	0	
+3	1	0	0	0	0	
+3	1	0	0	0	0	
+3	1	0	1	0	0	
+3	1	0	1	0	0	
+3	1	1	0	0	0	
+3	1	1	0	0	0	
+3	1	1	1	0	0	
+3	1	1	1	0	0	
+3	1	2	0	0	0	
+3	1	2	0	0	0	
+3	1	2	1	0	0	
+3	1	2	1	0	0	
+3	1	3	0	0	0	
+3	1	3	0	0	0	
+3	1	3	1	0	0	
+3	1	3	1	0	0	
+3	2	0	0	0	0	
+3	2	0	0	0	0	
+3	2	0	1	0	0	
+3	2	0	1	0	0	
+3	2	1	0	0	0	
+3	2	1	0	0	0	
+3	2	1	1	0	0	
+3	2	1	1	0	0	
+3	2	2	0	0	0	
+3	2	2	0	0	0	
+3	2	2	1	0	0	
+3	2	2	1	0	0	
+3	2	3	0	0	0	
+3	2	3	0	0	0	
+3	2	3	1	0	0	
+3	2	3	1	0	0	
+3	3	0	0	0	0	
+3	3	0	0	0	0	
+3	3	0	1	0	0	
+3	3	0	1	0	0	
+3	3	1	0	0	0	
+3	3	1	0	0	0	
+3	3	1	1	0	0	
+3	3	1	1	0	0	
+3	3	2	0	0	0	
+3	3	2	0	0	0	
+3	3	2	1	0	0	
+3	3	2	1	0	0	
+3	3	3	0	0	0	
+3	3	3	0	0	0	
+3	3	3	1	0	0	
+3	3	3	1	0	0	
+4	0	0	0	0	0	
+4	0	0	0	0	0	
+4	0	0	1	0	0	
+4	0	0	1	0	0	
+4	0	1	0	0	0	
+4	0	1	0	0	0	
+4	0	1	1	0	0	
+4	0	1	1	0	0	
+4	0	2	0	0	0	
+4	0	2	0	0	0	
+4	0	2	1	0	0	
+4	0	2	1	0	0	
+4	0	3	0	0	0	
+4	0	3	0	0	0	
+4	0	3	1	0	0	
+4	0	3	1	0	0	
+4	1	0	0	0	0	
+4	1	0	0	0	0	
+4	1	0	1	0	0	
+4	1	0	1	0	0	
+4	1	1	0	0	0	
+4	1	1	0	0	0	
+4	1	1	1	0	0	
+4	1	1	1	0	0	
+4	1	2	0	0	0	
+4	1	2	0	0	0	
+4	1	2	1	0	0	
+4	1	2	1	0	0	
+4	1	3	0	0	0	
+4	1	3	0	0	0	
+4	1	3	1	0	0	
+4	1	3	1	0	0	
+4	2	0	0	0	0	
+4	2	0	0	0	0	
+4	2	0	1	0	0	
+4	2	0	1	0	0	
+4	2	1	0	0	0	
+4	2	1	0	0	0	
+4	2	1	1	0	0	
+4	2	1	1	0	0	
+4	2	2	0	0	0	
+4	2	2	0	0	0	
+4	2	2	1	0	0	
+4	2	2	1	0	0	
+4	2	3	0	0	0	
+4	2	3	0	0	0	
+4	2	3	1	0	0	
+4	2	3	1	0	0	
+4	3	0	0	0	0	
+4	3	0	0	0	0	
+4	3	0	1	0	0	
+4	3	0	1	0	0	
+4	3	1	0	0	0	
+4	3	1	0	0	0	
+4	3	1	1	0	0	
+4	3	1	1	0	0	
+4	3	2	0	0	0	
+4	3	2	0	0	0	
+4	3	2	1	0	0	
+4	3	2	1	0	0	
+4	3	3	0	0	0	
+4	3	3	0	0	0	
+4	3	3	1	0	0	
+4	3	3	1	0	0	
+Table tempTable successfully deleted/dropped 
+Table 2tempTable successfully deleted/dropped 
+Table 23tempTable successfully deleted/dropped 
+Table 234tempTable successfully deleted/dropped 
+
+Printing the DISK IO Cost: 
+Real elapse time = 151663 ms
+Calculated elapse time = 152842 ms
+Calculated Disk I/Os = 2048
+
+
+DROP TABLE t1
+Inside processDrop function
+Table t1 successfully deleted/dropped
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.055 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+DROP TABLE t2
+Inside processDrop function
+Table t2 successfully deleted/dropped
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.042 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+DROP TABLE t3
+Inside processDrop function
+Table t3 successfully deleted/dropped
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.041 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+DROP TABLE t4
+Inside processDrop function
+Table t4 successfully deleted/dropped
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.041 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+DROP TABLE t5
+Inside processDrop function
+Table t5 successfully deleted/dropped
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.04 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+DROP TABLE t6
+Inside processDrop function
+Table t6 successfully deleted/dropped
+
+Printing the DISK IO Cost: 
+Real elapse time = 0.04 ms
+Calculated elapse time = 0 ms
+Calculated Disk I/Os = 0
+
+
+
+End of the input file
